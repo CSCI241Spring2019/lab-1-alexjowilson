@@ -1,0 +1,743 @@
+Script started on Thu 11 Apr 2019 12:31:05 PM PDT
+wilso292@CF165-25:~/csci241$ ls
+typescript
+wilso292@CF165-25:~/csci241$ git clone https://github.com/CSCI241Spring2019/lab-1-alexjowilson.git
+Cloning into 'lab-1-alexjowilson'...
+remote: Enumerating objects: 8, done.[K
+remote: Counting objects:  12% (1/8)   [Kremote: Counting objects:  25% (2/8)   [Kremote: Counting objects:  37% (3/8)   [Kremote: Counting objects:  50% (4/8)   [Kremote: Counting objects:  62% (5/8)   [Kremote: Counting objects:  75% (6/8)   [Kremote: Counting objects:  87% (7/8)   [Kremote: Counting objects: 100% (8/8)   [Kremote: Counting objects: 100% (8/8), done.[K
+remote: Compressing objects:  25% (1/4)   [Kremote: Compressing objects:  50% (2/4)   [Kremote: Compressing objects:  75% (3/4)   [Kremote: Compressing objects: 100% (4/4)   [Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 8 (delta 0), reused 8 (delta 0), pack-reused 0[K
+Unpacking objects:  12% (1/8)   Unpacking objects:  25% (2/8)   Unpacking objects:  37% (3/8)   Unpacking objects:  50% (4/8)   Unpacking objects:  62% (5/8)   Unpacking objects:  75% (6/8)   Unpacking objects:  87% (7/8)   Unpacking objects: 100% (8/8)   Unpacking objects: 100% (8/8), done.
+Checking connectivity... done.
+wilso292@CF165-25:~/csci241$ cd lab-1-alexjowilson/
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ touch writeup.txt
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git add writeup.txt 
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git commit -m "Added w[Kempty writeup.:[K"
+[master 8abcd7a] Added empty writeup.
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': alexjowilson7
+Password for 'https://alexjowilson7@github.com': 
+remote: Permission to CSCI241Spring2019/lab-1-alexjowilson.git denied to alexjowilson7.
+fatal: unable to access 'https://github.com/CSCI241Spring2019/lab-1-alexjowilson.git/': The requested URL returned error: 403
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git pushcommit -m "Added empty writeup."[16Padd writeup.txt [3Ptouch writeup.txtcd lab-1-alexjowilson/git clone https://github.com/CSCI241Spring2019/lab-1-alexjowilson.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kexitls ..[Kgit commit -m "added empty writeup"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpush
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': alexjowilson7
+Password for 'https://alexjowilson7@github.com': 
+remote: Permission to CSCI241Spring2019/lab-1-alexjowilson.git denied to alexjowilson7.
+fatal: unable to access 'https://github.com/CSCI241Spring2019/lab-1-alexjowilson.git/': The requested URL returned error: 403
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ w[Kalexjowilson7
+alexjowilson7: command not found
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ alexjowilson7[5Pgit push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': alexjowilson7
+Password for 'https://alexjowilson7@github.com': 
+remote: Permission to CSCI241Spring2019/lab-1-alexjowilson.git denied to alexjowilson7.
+fatal: unable to access 'https://github.com/CSCI241Spring2019/lab-1-alexjowilson.git/': The requested URL returned error: 403
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git push ori[K[K[K
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': alexjowilson
+Password for 'https://alexjowilson@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 314 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-alexjowilson.git
+   1523c09..8abcd7a  master -> master
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ w[Kls
+build.gradle  src  writeup.txt
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ cd writeup.txt
+bash: cd: writeup.txt: Not a directory
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ cd writeup.txt
+bash: cd: writeup.txt: Not a directory
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ wrcd writeup.txt
+bash: cd: writeup.txt: Not a directory
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git add writeup.txt
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': alexjowilson
+Password for 'https://alexjowilson@github.com': 
+Everything up-to-date
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git commit -m "Added part 1 (names) to writeup"
+[master a384fc9] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+)
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': alexjowilson
+Password for 'https://alexjowilson@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 281 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-alexjowilson.git
+   8abcd7a..a384fc9  master -> master
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git commit
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git commit -m "Added Hobbies"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ 1[Kgit statuscommit -m "Added Hobbies"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git push "Hobbies"
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: 'Hobbies' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ ls
+build.gradle  src  writeup.txt
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git commit -m "Added hopp[K[Kbbies to write [Kup"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git commit -m "Added hobbies to writeup"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git add[K[K[K[K[K[K[Kgit commi[K[K[K[K[K[K[K[K[Kgit status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git add writeup.txt
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git commit[K[K[K[K[Kommit -m "Added hobies"[K[K[K[Kbies"
+[master 2d0f7a3] Added hobbies
+ 1 file changed, 2 insertions(+)
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git push[K[K[K[Kcommit -m "A[KAdde[Ked hobbies"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': alexjowilson
+Password for 'https://alexjowilson@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 287 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-alexjowilson.git
+   a384fc9..2d0f7a3  master -> master
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ ls
+build.gradle  src  writeup.txt
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ mkdir use[K[K[K[K[K[K[K[K[Kls
+build.gradle  src  writeup.txt
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ touch username.txty[K
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ open username.txt
+Couldn't get a file descriptor referring to the console
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git add write[K[K[K[K[Kusername.txt
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git commit -m "Added username [K.txt" 
+[master 40a16ba] Added username.txt
+ 1 file changed, 3 insertions(+)
+ create mode 100644 username.txt
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': alexjowilson7
+Password for 'https://alexjowilson7@github.com': 
+remote: Permission to CSCI241Spring2019/lab-1-alexjowilson.git denied to alexjowilson7.
+fatal: unable to access 'https://github.com/CSCI241Spring2019/lab-1-alexjowilson.git/': The requested URL returned error: 403
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': alexjowilson
+Password for 'https://alexjowilson@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 374 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-alexjowilson.git
+   2d0f7a3..40a16ba  master -> master
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git pushcommit -m "Added username.txt" [15Padd username.txt
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git add username.txtpush[Kcommit -m "Added username.txt" [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KUpdated username.txt correctly"
+[master 7167539] Updated username.txt correctly
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git commit -m "Updated username.txt correctly"[26Padd username.txtpush[K
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': alexjowilson
+Password for 'https://alexjowilson@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 298 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-alexjowilson.git
+   40a16ba..7167539  master -> master
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git checkout
+Your branch is up-to-date with 'origin/master'.
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ c[Kgit reset
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git [K[K[K[Kgit branch question [K3
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git branch -d question3
+Deleted branch question3 (was 7167539).
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ ls
+build.gradle  src  username.txt  writeup.txt
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ build gradle[K[K[K[K[K[K[K[K[K[K[K[Kgrade build
+No command 'grade' found, did you mean:
+ Command 'grads' from package 'grads' (universe)
+ Command 'glade' from package 'glade' (universe)
+ Command 'gradle' from package 'gradle' (universe)
+ Command 'grace' from package 'grace' (universe)
+grade: command not found
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ gradle build
+[0m
+Welcome to Gradle 5.0!
+
+Here are the highlights of this release:
+ - Kotlin DSL 1.0
+ - Task timeouts
+ - Dependency alignment aka BOM support
+ - Interactive `gradle init`
+
+For more details see https://docs.gradle.org/5.0/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> Loading projects[m[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/wilso292/csci241/lab-1-alexjowilson/build.gradle into local compilation cache > Compiling build file '/home/wilso292/csci241/lab-1-alexjowilson/build.gradle' to cross bui[m[203D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/wilso292/csci241/lab-1-alexjowilson/build.gradle into local compilation cache > Compiling build file '/home/wilso292/csci241/lab-1-alexjowilson/build.gradle' to cross bui[m[203D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/wilso292/csci241/lab-1-alexjowilson/build.gradle into local compilation cache > Compiling build file '/home/wilso292/csci241/lab-1-alexjowilson/build.gradle' to cross bui[m[203D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[0K[33D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 7% EXECUTING [1s][m[33D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [1s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 3s
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mwilso292@CF165-25:~/csci241/lab-1-alexjowilson$ ls
+build  build.gradle  src  username.txt	writeup.txt
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ gradle run --args =[K[K="21[K2[K41"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello241!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mwilso292@CF165-25:~/csci241/lab-1-alexjowilson$ gra[K[K[Kgradle run --args="241"
+[0m
+[1A
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/home/wilso292/csci241/lab-1-alexjowilson/src/main/java/lab1/Hello.java:5: error: ')' expected
+        System.out.println("Hello" + " " args[0] + "!");
+                                        ^
+/home/wilso292/csci241/lab-1-alexjowilson/src/main/java/lab1/Hello.java:5: error: illegal start of expression
+        System.out.println("Hello" + " " args[0] + "!");
+                                             ^
+/home/wilso292/csci241/lab-1-alexjowilson/src/main/java/lab1/Hello.java:5: error: ';' expected
+        System.out.println("Hello" + " " args[0] + "!");
+                                              ^
+/home/wilso292/csci241/lab-1-alexjowilson/src/main/java/lab1/Hello.java:5: error: illegal start of expression
+        System.out.println("Hello" + " " args[0] + "!");
+                                               ^
+/home/wilso292/csci241/lab-1-alexjowilson/src/main/java/lab1/Hello.java:5: error: not a statement
+        System.out.println("Hello" + " " args[0] + "!");
+                                                 ^
+/home/wilso292/csci241/lab-1-alexjowilson/src/main/java/lab1/Hello.java:5: error: ';' expected
+        System.out.println("Hello" + " " args[0] + "!");
+                                                      ^
+6 errors
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+1 actionable task: 1 executed
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mwilso292@CF165-25:~/csci241/lab-1-alexjowilson$ gradle run --args="241"ls[Kgradle run --args="241"
+[0m
+[1A
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/home/wilso292/csci241/lab-1-alexjowilson/src/main/java/lab1/Hello.java:5: error: ')' expected
+        System.out.println("Hello" + " " args[0] + "!");
+                                        ^
+/home/wilso292/csci241/lab-1-alexjowilson/src/main/java/lab1/Hello.java:5: error: illegal start of expression
+        System.out.println("Hello" + " " args[0] + "!");
+                                             ^
+/home/wilso292/csci241/lab-1-alexjowilson/src/main/java/lab1/Hello.java:5: error: ';' expected
+        System.out.println("Hello" + " " args[0] + "!");
+                                              ^
+/home/wilso292/csci241/lab-1-alexjowilson/src/main/java/lab1/Hello.java:5: error: illegal start of expression
+        System.out.println("Hello" + " " args[0] + "!");
+                                               ^
+/home/wilso292/csci241/lab-1-alexjowilson/src/main/java/lab1/Hello.java:5: error: not a statement
+        System.out.println("Hello" + " " args[0] + "!");
+                                                 ^
+/home/wilso292/csci241/lab-1-alexjowilson/src/main/java/lab1/Hello.java:5: error: ';' expected
+        System.out.println("Hello" + " " args[0] + "!");
+                                                      ^
+6 errors
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+1 actionable task: 1 executed
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mwilso292@CF165-25:~/csci241/lab-1-alexjowilson$ gradle run --args="241"
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[0K[14D[1B[2A[0K
+[1m> Task :run[m[0K
+Hello241!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava[m[14D[1B[2A[2K[1B[2K[1A[0mwilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git add src/main/java/lab1/Hello.java:[K
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git commit [K[K[K[Kmit -m "Hello now prints command line arg"
+[master d07cd31] Hello now prints command line arg
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': alexjowilson
+Password for 'https://alexjowilson@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 492 bytes | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/CSCI241Spring2019/lab-1-alexjowilson.git
+   7167539..d07cd31  master -> master
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ exit
+exit
+
+Script done on Thu 11 Apr 2019 01:19:01 PM PDT
+Script started on Thu 11 Apr 2019 01:20:46 PM PDT
+wilso292@CF165-25:~/csci241$ git rm
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+wilso292@CF165-25:~/csci241$ git mv
+usage: git mv [<options>] <source>... <destination>
+
+    -v, --verbose         be verbose
+    -n, --dry-run         dry run
+    -f, --force           force move/rename even if target exists
+    -k                    skip move/rename errors
+
+wilso292@CF165-25:~/csci241$ git blame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+wilso292@CF165-25:~/csci241$ git log
+fatal: your current branch 'master' does not have any commits yet
+wilso292@CF165-25:~/csci241$ git diff
+[?1h=[K[?1l>wilso292@CF165-25:~/csci241$ git diff
+[?1h=[K[?1l>wilso292@CF165-25:~/csci241$ git checkout
+fatal: You are on a branch yet to be born
+wilso292@CF165-25:~/csci241$ git reset
+wilso292@CF165-25:~/csci241$ git add writeup.txt
+fatal: pathspec 'writeup.txt' did not match any files
+wilso292@CF165-25:~/csci241$ c[Kls
+lab-1-alexjowilson  typescript
+wilso292@CF165-25:~/csci241$ cd lab-1-alexjowilson/
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ ls
+build  build.gradle  src  username.txt	writeup.txt
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git add u[Kwriteup.txt
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git commit -m "Added favorite song"
+[master ede3204] Added favorite song
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': alexjowilson
+Password for 'https://alexjowilson@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 331 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-alexjowilson.git
+   d07cd31..ede3204  master -> master
+wilso292@CF165-25:~/csci241/lab-1-alexjowilson$ w[Kexit
+exit
+
+Script done on Thu 11 Apr 2019 01:25:24 PM PDT
